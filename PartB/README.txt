@@ -33,3 +33,8 @@ This is the sign up page.
 <input type="email"> tag is used taking in input as an email from the user.
 <input type="password"> tag is used taking in input as password from the user.
 <button> is used to create submit button.
+
+## CSS
+
+#style.css
+I have used a separate sttyle sheet named "style.css" which has all the styles applied to various classes associated to html tags and elements.
