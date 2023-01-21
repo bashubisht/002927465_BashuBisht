@@ -1,0 +1,141 @@
+.headerContainer {
+    font-size: 2em;
+    text-align: center;
+    background-color: darksalmon;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+
+body {
+    background-image: url("./Assets/bgImage.jpg");
+    background-size: 2000px 1200px
+}
+
+.magicImg {
+    width: 300px;
+    margin-right: 150px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.magicVid{
+    width: 600px;
+}
+
+.aboutContainer {
+    margin-top: 90px;
+}
+
+.audioContainer {
+    margin-top: 30px;
+}
+
+.signupContainer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.signupBtn {
+    background-color: coral;
+    border: 2px;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+}
+
+.footerContainer {
+    background-color: black;
+    font-size: 15px;
+    color: white;
+    font-family: Cambria, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contact {
+    font-size: 17px;
+    margin-left: 30px;
+}
+.phone {
+    font-size: 17px;
+    margin-left: 150px;
+}
+.email {
+    font-size: 17px;
+    margin-left: 185px;
+}
+.address {
+    font-size: 17px;
+    margin-left: 200px;
+}
+
+.signupHeader,
+h2 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 1px;
+    background: whitesmoke;
+
+}
+
+hr {
+    border: 1px whitesmoke;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #1512c7;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.8;
+
+}
+
+button:hover {
+    opacity: 1;
+}
+
+/* .signupBody {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("images2/6849398_3425171.jpg")
+} */
+
+label,
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+footer {
+    padding: 30px;
+    text-align: right;
+    color: white;
+    background-color: #F2F3F5;
+    margin-top: 40px;
+    border-radius: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(150, 147, 147, 0.1))
+}
