@@ -1,0 +1,20 @@
+Assignment 2 
+
+In this assignment I have built a Portfolio Website which consist of 3 web pages with the use of HTML and HTML5 elements.
+I have web pages as Introduction which tells about me and my skills, Resume page which consists a PDF of my resume embedded using <i frame>,
+and Certificates in which I added gallery of my certifications with hover effect.
+
+
+I have used an additional CSS file to implement various CSS properties such as float, overflow, colunm layout structure, absolute, relative position and hover effects etc.
+In my website there are various HTML elements present such as header, footer, img, span, iframe, button, figure, figCaption, div etc.
+I have also used tel and mail option for my contact information
+I have used column layout for navigating my website
+I have used float property for image position
+I have made an image gallery of my certificates with hover effects and figure captions using img, hover, figure and figCaption tags
+I have also made my website fully responsive using media queries for mobile, ipad and desktop
+
+
+Creativity section:
+I have embedded google maps into tyhe website using iframe tag with embed code from google maps
+I have imported font awesome's style sheet to embed social share icon like facebook and instagram
+I have used transform Css property to animate on hover effects to make the website UI rich.
