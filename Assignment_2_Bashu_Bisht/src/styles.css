@@ -1,0 +1,294 @@
+body{
+    background-image: url(../assets/Images/leaves.jpg);   
+    background-size: 146%;
+    margin: 0;
+}
+.profile{
+    margin: auto;
+    font-size: large;
+    color: rgb(26, 3, 58);   
+}
+
+header{
+    text-align: center;
+    font: bold;
+    color: rgb(50, 0, 132);
+    line-height: normal;
+    text-shadow: 2px 2px 5px #19b868;
+    
+}
+
+.container{
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: initial;
+    position: sticky;
+    background-color: rgb(126, 153, 212);
+}
+
+img{
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin: 20px;
+}
+
+.menuDiv {
+    column-count: 4;
+    background-color: #19b868;
+    text-align: center;
+    column-count: 4;
+    background-color: #19b868;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.imgAndAboutContainer {
+    /* height: 800px; */
+    display: flex;
+    margin: 15px 15px;
+}
+
+.imageContainer {
+    width: 30%;
+}
+
+img {
+    height: inherit;
+}
+
+.aboutContainer {
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-family: cursive;
+    color: darkslateblue;
+}
+
+.footer{
+    font-style: normal;
+    font-size: larger;
+    bottom: 0;
+    position: relative;
+    background-color: rgb(92, 175, 103);
+    width: 100%;
+    text-align: right;
+    height: 25%;
+}
+
+.socialContainer{
+    font-size: medium;
+    font-style: italic;
+    color: rgb(37, 1, 53);
+    position: absolute;
+    right: 30px;
+    bottom: 80px;
+    
+}
+
+.mapFollow {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+.mapIframe {
+    border: solid !important;
+    top: 0;
+    position: relative;
+    border-color: black;
+    left: 5px;
+}
+
+.fa {
+    margin: 20px;
+}
+
+.menuItem {
+    font-size: 18px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 25%;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+    font-family: cursive;
+    padding: 25px;
+}
+
+.menuItem:hover {
+    font-size: 23px;
+    background-color:antiquewhite;
+    transition: all .75s ease;
+    cursor: pointer;
+}
+
+.button {
+    border-radius: 8px;
+    background-color: #f07c59;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;    
+    padding: 15px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .buttonsContainer {
+    position: absolute;
+    right: 5px;
+    bottom: 20px;
+  }
+
+  .resumeIframe {
+    width:100%;
+    height: 800px;
+  }
+
+  .certsContainer {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+    gap: 10rem;
+    right: 50px;
+  }
+
+  .certsContainer figure img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .certsContainer figure img {
+    object-fit: contain;
+    border-radius: 10px;
+    scale: 1.8;
+  }
+
+  .certsContainer figure figcaption {
+    top: 80px;
+    position: relative;
+  }
+
+  .certsContainer figure {
+    margin-left: 100px;
+  }
+  
+
+  .aboutPara {
+    height: 450px;
+  }
+  
+  /* Media query for Mobile */
+  @media (max-width: 480px) {
+    
+    body {
+        background-size: 650%;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .imgAndAboutContainer {
+        height: 300px;
+        display: block;
+    }
+
+    .imageContainer {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mapIframe {
+        display: none;
+    }
+
+    .aboutContainer {
+        overflow: hidden;
+        width: auto;
+        padding: 25px;
+        font-size: 18px;
+    }
+
+    p {
+        overflow: hidden;
+    }
+
+    .button {
+        width: 80px;
+        font-size: .65em;
+        padding: 5px;
+    }
+
+    .buttonsContainer {
+        bottom: 0px;
+    }
+
+    .fa {
+        margin: 0;
+    }
+
+    .socialContainer {
+        left: 0px;
+        bottom: 0px;
+        right: auto;
+    }
+
+    .mapFollow h1 {
+        font-size: 1em;
+    }
+
+    .certsContainer figure {
+        margin-left: 75px;
+      }
+  }
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    body {
+        background-size: 220%;
+    }
+  }
