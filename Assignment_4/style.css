@@ -1,0 +1,20 @@
+.error {
+    color: red;
+    height: 10px;
+    /* display: block; */
+    /* position: relative; */
+    margin-left: 145px;
+    padding: 5px;
+}
+
+#customTextDivId {
+    display: none;
+}
+
+td {
+    border: solid !important;
+}
+
+th {
+    border: solid !important;
+}
