@@ -1,0 +1,58 @@
+.contactDisplay{
+    background-image: url("/public/images/ContactBack.png");
+    
+    background-size: 1700px;
+    padding-top: 50px;
+    width:  100%;
+    height: 900px;
+    padding-bottom: 30px;
+}
+.contact_header{
+    text-align: center;
+    margin-right: 2em;
+    color: rgb(142, 29, 212);
+    font-weight: bolder;
+    font-size: 50px;
+}
+.row{
+    margin: 1%;
+    margin-left: 40%;
+    color: rgba(71, 69, 69, 0.816);
+    font-weight: bolder;
+    font-size: 30px;
+   
+}
+
+.col3{ 
+    width:  220px;
+    height: 30px;
+
+}
+.col4{ 
+    width:  220px;
+    height: 80px;
+
+}
+
+.contact_form_button{
+    margin: 1%;
+    margin-left: 42%;
+    text-align:center;
+    background-color: rgb(51, 51, 53);
+    color: white;
+    height: 30px;
+    width: 10%;
+    
+}
+.Contact Footer{
+    
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(158, 24, 220);
+    color: white;
+    text-align: center;
+}
+

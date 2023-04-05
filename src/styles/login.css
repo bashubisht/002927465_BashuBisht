@@ -1,0 +1,59 @@
+.landingDetails{
+    background-color:pink;
+    background-image: url("/public/images/landingImg.png");
+    background-size: 1700px;
+    background-size: 2200px;
+    padding-top: 50px;
+    width: 100%;
+    padding-bottom: 30px;
+    height: 800px;
+    width: 100%;
+    
+}
+.userDetails{
+   
+    margin: 1em;
+    padding: 1%;
+    margin-top: 25%;
+    height: 20px; 
+    width: 90%;
+    text-align: center ;
+    font-size: 30px;
+}
+.label{
+    
+    
+    color: rgb(3, 3, 152);
+    font-weight: bolder;
+    margin-right: 1%;
+    margin-top: 1%;
+   
+}
+.input{
+    margin: 1%;
+    height: 30px;
+    width: 20%;
+    
+
+}
+.input1{
+    margin: 1%;
+    margin-left: 2%;
+    height: 30px;
+    width: 20%;
+
+}
+.logInBtn{
+    text-align: center ;
+    margin: auto;
+    margin-top: 8%;
+    
+}
+.btn{
+    background-color: rgb(11, 11, 94);
+    color: white;
+    height: 30px;
+    width: 10%;
+    
+
+}

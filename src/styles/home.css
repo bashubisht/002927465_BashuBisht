@@ -1,0 +1,65 @@
+.navigator{
+    display: flex;
+    background-color: rgb(0, 255, 234);
+    float: right;
+
+}
+.options{
+    margin: 10px;
+    text-align: center;
+}
+
+.homePage{
+    background-color:pink;
+    background-image: url("/public/images/BackImg.png");
+    background-size: 1700px;
+    background-size: 2200px;
+    padding-top: 50px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.cardHeader{
+    text-align: left;
+    text-decoration: solid;
+    color: rgb(60, 59, 59);
+    padding: 1em;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 40px;
+
+}
+.Header{
+    text-align: center;
+    color: rgb(64, 3, 94);
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 1em;
+}
+.HomeDescription{
+    color: rgb(119, 63, 142);
+    background: rgb(222, 170, 242);
+    margin: 1em;
+    padding: auto;
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+    border-radius: 10px;
+    padding: 0.5rem 3rem;
+    outline: none;
+    font-size: 30px;
+}
+
+.img1{
+    height: 500px;
+    width: 30%;
+    margin: 1em;
+}
+.Contact Footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(158, 24, 220);
+    color: white;
+    text-align: center;
+}

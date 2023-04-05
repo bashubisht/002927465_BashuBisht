@@ -1,0 +1,40 @@
+.container{
+    background-image: url("/public/images/AboutBackimg.png");
+    background-size: 1500px;
+    background-size: 2000px;
+    padding-top: 50px;
+    width: 100%;
+    height: 800px;
+    padding-bottom: 30px;
+}
+.container_header{
+    text-align: center;
+    color: rgb(64, 3, 94);
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 1em;
+}
+.aboutUs{
+    color: rgb(119, 63, 142);
+    background: rgb(222, 170, 242);
+    margin: 1em;
+    padding: auto;
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+    border-radius: 10px;
+    padding: 0.5rem 3rem;
+    outline: none;
+    width: 30%;
+    height: 50%;
+    font-size: 40px;
+}
+.Contact Footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(8, 41, 228);
+    color: white;
+    text-align: center;
+}
